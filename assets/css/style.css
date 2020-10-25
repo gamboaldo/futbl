@@ -123,8 +123,8 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background:rgb(54, 139, 54);
-   padding-top: 30px
+  background: rgb(54, 139, 54);
+  padding-top: 30px;
 }
 
 #header.header-transparent {
@@ -153,8 +153,16 @@ h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height:170px;
-
+  max-height: 170px;
+  visibility: visible;
+}
+#header .logo mr-auto img.mobile {
+  display: block !important;
+  opacity: 1 !important;
+  position: relative;
+  margin: 0 auto;
+  z-index: 9999999999;
+  visibility: visible;
 }
 
 @media (max-width: 992px) {
@@ -336,8 +344,7 @@ h6 {
   border-radius: 10px;
   padding: 10px 0;
 }
-
-.mobile-nav * {
+j .mobile-nav * {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -391,7 +398,7 @@ h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background:rgb(54, 139, 54);
+  background: rgb(54, 139, 54);
   overflow: hidden;
   display: none;
   transition: ease-in-out 0.2s;
@@ -1018,7 +1025,8 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("https://th.bing.com/th/id/OIP.T8sHULA_8fbY1gHUNjrYxwHaEv?pid=Api&rs=1") no-repeat;
+  background: url("https://th.bing.com/th/id/OIP.T8sHULA_8fbY1gHUNjrYxwHaEv?pid=Api&rs=1")
+    no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
