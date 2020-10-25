@@ -141,7 +141,7 @@ h6 {
   margin: 0;
   padding: 0;
   line-height: 1;
-  font-weight: 300;
+  font-weight: 00;
 }
 
 #header .logo h1 a,
@@ -159,9 +159,11 @@ h6 {
 
 @media (max-width: 992px) {
   #header {
-    height: 422px;
+    height: 64px;
   }
- 
+  #header .logo h1 {
+    font-size: 30px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -396,7 +398,7 @@ h6 {
 }
 
 .mobile-nav-active {
-  overflow: visible;
+  overflow: hidden;
 }
 
 .mobile-nav-active .mobile-nav {
