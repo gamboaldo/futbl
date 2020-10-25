@@ -791,9 +791,9 @@ section {
 }
 
 .about .video-box {
-  background: url("../img/about.png") center center no-repeat;
+  background: url("http://clipartmag.com/images/soccer-cleats-clipart-21.png") center center no-repeat;
   background-size: contain;
-  min-height: 300px;
+  max-height: 400px;
 }
 
 .about .play-btn {
