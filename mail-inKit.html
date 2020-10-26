@@ -53,14 +53,13 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#pricing">Plans</a></li>
-          <li><a href="#faq">FAQ</a></li>
-          <li><a href="#contact">Contact</a></li>
-
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#features">Features</a></li>
+          <li><a href="index.html#gallery">Gallery</a></li>
+          <li><a href="index.html#team">Team</a></li>
+          <li><a href="index.html#faq">FAQ</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+          <li><a href="mail-inKit.html">DONATE!</a></li>
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -84,30 +83,282 @@
       </div>
     </section><!-- End Breadcrumbs Section -->
 
-    <section class="inner-page">
-      <div class="container">
-        <p>
-          <div>
-        1.
+    <section id="mail-in" class="mail-in">
+      <div class="container-fluid">
+    
+        <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5"
+          data-aos="fade-left">
+          <h3>REQUEST MAIL-IN KIT</h3>
+          <p>Note: Once your cleats are approved, we'll send you a free kit so you can donate your cleats!</p>
+          <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
         
-        Before you get started it's important to start by cleaning the pair of cleats you will be donating! For help cleaning,
-        please refer to our FAQs page.
+            <h4 class="title"><a href="">1. Clean the Cleats</a></h4>
+            <p class="description">Before you get started it's important to start by cleaning the pair of cleats you will be
+              donating! For help cleaning,
+              please refer to our <a href="index.html#faq">FAQs</a> page.</p>
+          </div>
+        
+          <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
+        
+            <h4 class="title"><a href="">2. Apply</a></h4>
+            <p class="description">After that's done, now you can request a free mail-in kit to donate your pair of cleats. Get
+              started by completing the
+              application now!</p>
+          </div>
+        
+          <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
+        
+            <h4 class="title"><a href="">3. Approval</a></h4>
+            <p class="description">Once your cleats are approved you'll receive your mail-in kit in 2 business days so you can
+              pack and donate your cleats!</p>
+          </div>
+        
         </div>
         <div>
-        2.
+          <ul>
         
-        After that's done, now you can request a free mail-in kit to donate your pair of cleats. Get started by completing the
-        application now!
-
-        </div>
-        <div>
-        3.
         
-        Once your cleats are approved you'll receive your mail-in kit in 2 business days so you can pack and donate your cleats!
-
+        
+          <li id="fo3li1" class="notranslate      ">
+            <label class="desc" id="title1">
+              Full Name
+            </label>
+            
+            <span>
+              <div>
+              <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="20" tabindex="0"
+                onkeyup="handleInput(this);" onchange="handleInput(this);" placeholder="">
+              <label for="Field1"></label>
+            </span>
+            </div>
+          </li>
+        
+        
+        
+          <li id="fo3li6" class="phone notranslate      ">
+            <label class="desc" id="title6">
+              Cell #
+            </label>
+            <span>
+              <div>
+              <input id="Field6" name="Field6" type="tel" class="field text" value="" size="20" maxlength="3" tabindex="0"
+                onkeyup="handleInput(this); autotab(this, document.getElementById('Field6-1'), this); filterNonnumeric(this);"
+                onchange="handleInput(this);" onfocus="this.selectionStart = this.selectionEnd = this.value.length;"
+                placeholder="">
+              <label for="Field6"></label>
+            </span>
+            
+            
+            </div>
+          </li>
+        
+        
+        
+          <li id="fo3li3" class="notranslate      ">
+            <label class="desc" id="title3" for="Field3">
+              Email
+              
+            </label>
+            <div>
+              <input id="Field3" name="Field3" type="email" spellcheck="false" class="field text medium" value=""
+                maxlength="255" tabindex="0" onkeyup="handleInput(this);" onchange="handleInput(this);" placeholder=""
+                >
+            </div>
+          </li>
+        
+        
+        
+          <li id="fo3li4" class="notranslate       ">
+            <label class="desc" id="title4" for="Field4">
+              Photo of your cleats
+              <span id="req_4" class="req">*</span>
+            </label>
+            <div>
+              <input id="Field4" name="Field4" type="file" class="field file" size="12" data-file-max-size="10" tabindex="0"
+                required="" data-wufoo-field="file-upload">
+            </div>
+            <p class="instruct" id="instruct4">
+              <small>Our QC team needs to make sure your cleats are ready to be donated abroad!</small>
+            </p>
+          </li>
+        
+        
+        
+          <li id="fo3li13" class="notranslate       hide">
+            <fieldset>
+              <!--[if !IE | (gte IE 8)]-->
+              <legend id="title13" class="desc">
+                Cleats Condition
+                <span id="req_13" class="req">*</span>
+              </legend>
+              <!--[endif]-->
+              <!--[if lt IE 8]>
+        	<label id="title13" class="desc">
+        		Cleats Condition
+        				<span id="req_13" class="req">*</span>
+        			</label>
+        	<![endif]-->
+              <div id="Rating13" class="field rating clearfix">
+                <input id="Field13" name="Field13" type="hidden" value="">
+                <!--[if !IE | gte IE 8]-->
+                <span class="star clickable " value="1" tabindex="0">
+                </span>
+                <!--[endif]---->
+                <!--[if lt IE 8]>
+        						<span class="star clickable  old-ie" 							value="1" 							tabindex="0" 							>S
+        						</span>
+        					<![endif]-->
+                <!--[if !IE | gte IE 8]-->
+                <span class="star clickable " value="2" tabindex="0">
+                </span>
+                <!--[endif]---->
+                <!--[if lt IE 8]>
+        						<span class="star clickable  old-ie" 							value="2" 							tabindex="0" 							>S
+        						</span>
+        					<![endif]-->
+                <!--[if !IE | gte IE 8]-->
+                <span class="star clickable " value="3" tabindex="0">
+                </span>
+                <!--[endif]---->
+                <!--[if lt IE 8]>
+        						<span class="star clickable  old-ie" 							value="3" 							tabindex="0" 							>S
+        						</span>
+        					<![endif]-->
+                <!--[if !IE | gte IE 8]-->
+                <span class="star clickable " value="4" tabindex="0">
+                </span>
+                <!--[endif]---->
+                <!--[if lt IE 8]>
+        						<span class="star clickable  old-ie" 							value="4" 							tabindex="0" 							>S
+        						</span>
+        					<![endif]-->
+                <!--[if !IE | gte IE 8]-->
+                <span class="star clickable " value="5" tabindex="0">
+                </span>
+                <!--[endif]---->
+                <!--[if lt IE 8]>
+        						<span class="star clickable  old-ie" 							value="5" 							tabindex="0" 							>S
+        						</span>
+        					<![endif]-->
+              </div>
+            </fieldset>
+            <p class="instruct" id="instruct13">
+              <small>Rate the cleats on a scale of 1-5. Be honest with your rating!</small>
+            </p>
+          </li>
+        
+        
+        
+          <li id="fo3li10" class="notranslate      hide">
+            <label class="desc " id="title10" for="Field10">
+              Cleats Size
+              <span id="req_10" class="req">*</span>
+            </label>
+            <div>
+              <input id="Field10" name="Field10" type="text" class="field text nospin small" value="" tabindex="0"
+                onkeyup="handleInput(this); " onchange="handleInput(this);" placeholder="" required="">
+            </div>
+          </li>
+        
+        
+        
+          <li id="fo3li8" class="      hide">
+            <label class="desc notranslate" id="title8" for="Field8">
+              Cleats Brand
+              <span id="req_8" class="req">*</span>
+            </label>
+            <div>
+              <select id="Field8" name="Field8" class="field select medium" onchange="handleInput(this);"
+                onkeyup="handleInput(this);" tabindex="0" data-wufoo-field="dropdown">
+                <option value="" selected="selected">
+        
+                </option>
+                <option value="Adidas">
+                  Adidas
+                </option>
+                <option value="Nike">
+                  Nike
+                </option>
+                <option value="Under Armour">
+                  Under Armour
+                </option>
+                <option value="Puma">
+                  Puma
+                </option>
+                <option value="Diadora">
+                  Diadora
+                </option>
+                <option value="Umbro">
+                  Umbro
+                </option>
+                <option value="Other">
+                  Other
+                </option>
+              </select>
+            </div>
+          </li>
+        
+        
+        
+          <li id="fo3li15" data-wufoo-field="" data-field-type="text" class="notranslate      hide">
+            <label class="desc" id="title15" for="Field15">
+              Cleats Brand
+              <span id="req_15" class="req">*</span>
+            </label>
+            <div>
+              <input id="Field15" name="Field15" type="text" class="field text medium" value="" maxlength="255" tabindex="0"
+                onkeyup="handleInput(this); " onchange="handleInput(this);" required="" placeholder="">
+            </div>
+          </li>
+        
+        
+        
+          <li id="fo3li119" class="      hide">
+            <label class="desc notranslate" id="title119" for="Field119">
+              Gender (for cleats size):
+              <span id="req_119" class="req">*</span>
+            </label>
+            <div>
+              <select id="Field119" name="Field119" class="field select small" onchange="handleInput(this);"
+                onkeyup="handleInput(this);" tabindex="0" data-wufoo-field="dropdown">
+                <option value="" selected="selected">
+        
+                </option>
+                <option value="Boy">
+                  Boy
+                </option>
+                <option value="Girl">
+                  Girl
+                </option>
+              </select>
+            </div>
+          </li>
+        
+        
+        
+        
+        
+          <li class="buttons ">
+            <div>
+              <input type="hidden" name="currentPage" id="currentPage" value="8ln5lBIxvmBKMpnbYLCHvLZFBhtwhoTawuBeKjvr2JvgpY=">
+        
+              <input id="saveForm" name="saveForm" class="btTxt submit" type="submit" value="Request Mail-in Kit ➦"
+                onmousedown="doSubmitEvents();">
+        
+        
+        
+            </div>
+          </li>
+        
+          
+        </ul>
       </div>
-        </p>
-      </div>
+      <!-- //              END OF INFO  -->
+    
+          
+        
+    
+    
     </section>
 
   </main><!-- End #main -->
@@ -168,7 +419,7 @@
     </div>
 
   </div>
-</footer>!-- End Footer -->
+</footer>
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
   <div id="preloader"></div>
