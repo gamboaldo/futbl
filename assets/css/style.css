@@ -1711,3 +1711,7 @@ section {
     margin: -20px 0 30px 0;
   }
 }
+
+.row .col-lg-4 mb-4{
+  align-content: center;
+}
