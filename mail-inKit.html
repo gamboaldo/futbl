@@ -27,6 +27,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="">
 
   <!-- =======================================================
   * Template Name: Bootslander - v2.2.0
@@ -189,7 +190,7 @@
               <!--[if !IE | (gte IE 8)]-->
               <legend id="title13" class="desc">
                 Cleats Condition
-                <span id="req_13" class="req">*</span>
+               
               </legend>
               <!--[endif]-->
               <!--[if lt IE 8]>
@@ -242,17 +243,43 @@
         					<![endif]-->
               </div>
             </fieldset>
-            <p class="instruct" id="instruct13">
-              <small>Rate the cleats on a scale of 1-5. Be honest with your rating!</small>
-            </p>
-          </li>
+            <li id="fo3li8" class="      hide">
+              <label class="desc notranslate" id="title8" for="Field8">
+                Cleats Condition Rating (1-5)
+            
+              </label>
+              <div>
+                <select id="Field8" name="Field8" class="field select medium" onchange="handleInput(this);"
+                  onkeyup="handleInput(this);" tabindex="0" data-wufoo-field="dropdown">
+                  <option value="" selected="selected">
+            
+                  </option>
+                  <option value="1">
+                    1
+                  </option>
+                  <option value="2">
+                   2
+                  </option>
+                  <option value="3">
+                    3
+                  </option>
+                  <option value="4">
+                    4
+                  </option>
+                  <option value="5">
+                    5
+                  </option>
+                  
+                </select>
+              </div>
+            </li>
         
         
         
           <li id="fo3li10" class="notranslate      hide">
             <label class="desc " id="title10" for="Field10">
               Cleats Size
-              <span id="req_10" class="req">*</span>
+              
             </label>
             <div>
               <input id="Field10" name="Field10" type="text" class="field text nospin small" value="" tabindex="0"
@@ -265,7 +292,7 @@
           <li id="fo3li8" class="      hide">
             <label class="desc notranslate" id="title8" for="Field8">
               Cleats Brand
-              <span id="req_8" class="req">*</span>
+              
             </label>
             <div>
               <select id="Field8" name="Field8" class="field select medium" onchange="handleInput(this);"
@@ -303,7 +330,7 @@
           <li id="fo3li15" data-wufoo-field="" data-field-type="text" class="notranslate      hide">
             <label class="desc" id="title15" for="Field15">
               Cleats Brand
-              <span id="req_15" class="req">*</span>
+              
             </label>
             <div>
               <input id="Field15" name="Field15" type="text" class="field text medium" value="" maxlength="255" tabindex="0"
@@ -316,7 +343,7 @@
           <li id="fo3li119" class="      hide">
             <label class="desc notranslate" id="title119" for="Field119">
               Gender (for cleats size):
-              <span id="req_119" class="req">*</span>
+  
             </label>
             <div>
               <select id="Field119" name="Field119" class="field select small" onchange="handleInput(this);"
